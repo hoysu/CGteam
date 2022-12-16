@@ -153,11 +153,15 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+<<<<<<< Updated upstream
     Android: com.Company.ProductName
     Standalone: unity.DefaultCompany.FPS2
     Tizen: com.Company.ProductName
     iPhone: com.Company.ProductName
     tvOS: com.Company.ProductName
+=======
+    Standalone: com.DefaultCompany.CGteam
+>>>>>>> Stashed changes
   buildNumber:
     Standalone: 0
     iPhone: 0
