@@ -1,0 +1,16 @@
+newmtl Orient:Building3:TAJmahal:lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -s_0.5_0.5_-mm_0_0.539877_germany010a_copy.jpg
+bump  -bm 1 -s_0.5_0.5_germany010b.jpg
+Ni 1.00
+newmtl bridgeRender:bridge1:castle:CastleRender:towerRender:towerRender:belem:belemRender2:lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -mm_0_0.901841_brck23La.jpg
+bump  -bm 1 brck23Lb.jpg
+Ni 1.00
