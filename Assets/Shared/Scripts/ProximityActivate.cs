@@ -67,7 +67,7 @@ public class ProximityActivate : MonoBehaviour
         target.alpha = Mathf.Clamp01(target.alpha + alpha * Time.deltaTime);
         if (infoPanel != null)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.U))
                 enableInfoPanel = !enableInfoPanel;
             infoPanel.alpha = Mathf.Lerp(infoPanel.alpha, Mathf.Clamp01(enableInfoPanel ? alpha : 0), Time.deltaTime * 10);
         }
