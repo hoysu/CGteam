@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ie5_c : MonoBehaviour
 {
-    Shader myShader;        // image effect shader 
+    Shader myShader;       
     Material myMaterial;
 
     public bool InvertEffect;
@@ -12,7 +12,7 @@ public class ie5_c : MonoBehaviour
 
     void Start()
     {
-        myShader = Shader.Find("shader/eval/ie5");    // image effect shader file must have been created
+        myShader = Shader.Find("shader/eval/ie5");    
         myMaterial = new Material(myShader);
     }
 

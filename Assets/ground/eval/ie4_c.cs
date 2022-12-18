@@ -5,7 +5,7 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class ie4_c : MonoBehaviour
 {
-    Shader myShader;        // image effect shader 
+    Shader myShader;       
     Material myMaterial;
 
     public Texture2D BlendTexture;

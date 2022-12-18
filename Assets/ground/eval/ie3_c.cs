@@ -5,7 +5,7 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class ie3_c : MonoBehaviour
 {
-    Shader myShader;        // image effect shader 
+    Shader myShader;        
     Material myMaterial;
 
     public Texture2D BlendTexture;
@@ -13,7 +13,7 @@ public class ie3_c : MonoBehaviour
 
     void Start()
     {
-        myShader = Shader.Find("shader/eval/ie3");    // image effect shader file must have been created
+        myShader = Shader.Find("shader/eval/ie3");   
         myMaterial = new Material(myShader);
     }
 

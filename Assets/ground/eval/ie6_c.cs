@@ -5,7 +5,7 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class ie6_c : MonoBehaviour
 {
-    Shader myShader;        // image effect shader 
+    Shader myShader;       
     Material myMaterial;
 
     public float brightness = 1.0f;
@@ -14,7 +14,7 @@ public class ie6_c : MonoBehaviour
 
     void Start()
     {
-        myShader = Shader.Find("shader/eval/ie6");    // image effect shader file must have been created
+        myShader = Shader.Find("shader/eval/ie6");   
         myMaterial = new Material(myShader);
     }
 
